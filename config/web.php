@@ -40,8 +40,7 @@ $config = [
         'db' => require(__DIR__ . '/db.php'),
         'view' => [
             'theme' => [
-                'pathMap' => ['@app/views' => '@app/themes/my123'],
-                //'baseUrl' => '@web/themes/mythemename',
+                'pathMap' => ['@app/views' => '@app/themes/base'],
             ],
         ],
     ],
